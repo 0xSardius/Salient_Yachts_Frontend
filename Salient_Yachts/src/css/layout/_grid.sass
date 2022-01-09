@@ -1,0 +1,20 @@
+section, .container
+  margin-left: auto
+  padding: 0 70px 0 119px
+
+
+@include minSmall
+section, .container
+  max-width: 540px
+
+@include minMedium
+section, .container
+  max-width: 720px
+
+@include minLarge
+section, .container
+  max-width: 960px
+
+@include minXlarge
+section, .container
+  max-width: calc(100% - 350px)
