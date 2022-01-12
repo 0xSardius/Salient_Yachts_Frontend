@@ -1,6 +1,6 @@
 // Replace with your own Moralis info
-const serverUrl = "**************";
-const appId = "***********";
+const serverUrl = "****************";
+const appId = "***************";
 Moralis.start({ serverUrl, appId });
 
 
